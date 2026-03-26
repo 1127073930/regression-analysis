@@ -52,6 +52,4 @@ model$residuals
 
 model$fitted.values
 
-# 26号 第 1 次
-
-# 26号 第 2 次
+# 7. 输出诊断图像
