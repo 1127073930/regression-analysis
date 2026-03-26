@@ -56,3 +56,6 @@ model$fitted.values
 
 
 # 8. 预测
+
+
+# 9. 思考：如何提高模型效果
