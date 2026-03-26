@@ -53,3 +53,6 @@ model$residuals
 model$fitted.values
 
 # 7. 输出诊断图像
+
+
+# 8. 预测
