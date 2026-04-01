@@ -24,7 +24,7 @@ galton_processed = galton_raw %>%
     MidParent = (Father + Mother) / 2,   # 父母平均身高
     Child = as.factor(Child)             # 性别转为因子（可选，用于后续多元）
   )
-
+head(galton_processed)
 # 查看处理后的数据
 summary(galton_processed)
 
@@ -94,3 +94,4 @@ print(result)
 multi_model = lm(Height ~ Father + Mother + Child, data = galton_processed)
 summary(multi_model)
 
+# DONE
